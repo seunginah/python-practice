@@ -5,6 +5,10 @@
 
 # WHITELIST --------------------------------------
 
+## Allow these standard directories:
+!$src/**
+!$tests/**
+
 ## Source code
 !*.c
 !*.cpp
@@ -82,22 +86,17 @@
 !packrat.opts
 !renv.lock
 
-*
-# To Whitelist directories:
-# !$FOO/
-# !$FOO/**/
-!/**/
-
 # BLACKLIST --------------------------------------
 # Ignore these standard cookiecutter directories:
 /data/
 /models/
 /references/
 /reports/
+/venv/
 
 # Ignore these project-specific directories:
-# Ignore these project-specific files:
 
+# Ignore these project-specific files:
 
 # SIGNED BY CONTRIBUTORS --------------------------
 # "I will never store Personally Identifiable Information (PII) or Personal Health Information (PHI) outside of the above PII-permitted directories."
