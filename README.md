@@ -21,6 +21,9 @@ created virtual environment CPython3.9.10.final.0-64 in 1081ms
 Activate my virtual environment
 `♥ 14:45:53 ♥ source venv/bin/activate`
 
+Upgrade pip
+`(venv) ♥ 15:19:35 ♥  pip install --upgrade pip`
+
 ### Set up repo structure
 `
 python-practice/
@@ -33,3 +36,6 @@ python-practice/
 └── setup.py
 `
 
+### Linting & Formatting with [**flake8**](https://flake8.pycqa.org/en/latest/index.html)
+
+TODO: add github actions, flake8 https://github.com/marketplace/actions/flake8-action

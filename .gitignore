@@ -8,6 +8,7 @@
 ## Allow these standard directories:
 !$src/**
 !$tests/**
+!$.github/**
 
 ## Source code
 !*.c
@@ -107,6 +108,8 @@
 
 # BLACKLIST EXTENDED -------------------------------
 # Ignore these general directories and files that tend to come up
+.idea/*
+
 # This is the standard .gitignore file from Github
 
 # Byte-compiled / optimized / DLL files
