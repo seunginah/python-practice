@@ -8,6 +8,7 @@
 ## Allow these standard directories:
 !$src/**
 !$tests/**
+!$.github/**
 
 ## Source code
 !*.c
