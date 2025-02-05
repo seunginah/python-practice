@@ -1,6 +1,6 @@
 import unittest
 
-from src.record_calls import record_calls
+from src.decorator_record_calls import record_calls
 
 
 class RecordCallsTests(unittest.TestCase):
@@ -95,7 +95,7 @@ class RecordCallsTests(unittest.TestCase):
     # To test bonus 3, comment out the next line
     @unittest.expectedFailure
     def test_record_return_values(self):
-        from src.record_calls import NO_RETURN
+        from src.decorator_record_calls import NO_RETURN
         @record_calls
         def my_func(*args, **kwargs): return sum(args), kwargs
         my_func()

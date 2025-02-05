@@ -1,4 +1,4 @@
-from src.record_calls import record_calls
+from src.decorator_record_calls import record_calls
 
 """
 https://www.pythonmorsels.com/exercises/3ee85ad3481f428d99458b102cbda7c6/submit/1/

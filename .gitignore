@@ -109,9 +109,9 @@
 # BLACKLIST EXTENDED -------------------------------
 # Ignore these general directories and files that tend to come up
 .idea/*
+.DS_Store
 
-# This is the standard .gitignore file from Github
-
+# This is the standard .gitignore file from Github:
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
